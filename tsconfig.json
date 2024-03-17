@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "baseUrl": ".",
+        "module": "CommonJS",
+        "target": "ES6",
+        "declaration": true,
+        "jsx": "react",
+        "moduleResolution": "node",
+        // "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "paths": {
+            "@common/*": [
+                "src/common/*"
+            ],
+            "@recoils/*": [
+                "src/recoils/*"
+            ],
+            "@apis/*": [
+                "src/apis/*"
+            ],
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@styles/*": [
+                "src/styles/*"
+            ],
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,24 @@
+html,
+body {
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+.react-bpmn-diagram-container {
+    height: 100%;
+    width: 100%;
+}
+
+.bjs-powered-by {
+    display: none;
+}

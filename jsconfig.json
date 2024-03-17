@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "checkJs": true,
+        "target": "ES6",
+        "jsx": "react-jsx",
+        "paths": {
+            "@common/*": [
+                "src/common/*"
+            ],
+            "@recoils/*": [
+                "src/recoils/*"
+            ],
+            "@apis/*": [
+                "src/apis/*"
+            ],
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@styles/*": [
+                "src/styles/*"
+            ],
+        }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

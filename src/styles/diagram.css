@@ -1,0 +1,16 @@
+.bpmn-icon-custom-task {
+    /* background-color: #52B415; */
+    /* color: white; */
+    line-height: 18px !important;
+    padding: 2px 4px !important;
+    border-radius: 8px !important;
+    width: 100% !important;
+    height: 35px !important;
+    border: solid 2.5px !important;
+    font-size: 12px !important;
+}
+
+/* .bpmn-icon-tasks:before { */
+    /* content: '고성능 태스크'; */
+    /* font-size: 12px; */
+/* } */
